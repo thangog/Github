@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+            margin: 0;
+            padding: 0;
+     }
+        
+     .nav{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        height: 50px;
+        padding: 0px 20px;
+     }
+
+     a{
+        text-decoration: none;
+        color: orangered;
+        margin-left: 10px; 
+     }
+     a:hover{
+        text-decoration: underline;
+        text-decoration-color: white;
+     }
+     form {
+            border: 1px solid grey;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            padding: 30px;
+            margin: 150px auto;
+            
+      }
+
+      input{
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 10px;
+            border-bottom: 1px solid grey;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-radius: 15px;
+            font-size: 15px;
+      }
+      button{
+            background-color: orangered;
+            border-radius: 30px;
+            border: none;
+            color: white;
+            font-size: 18px;
+            width: 100%;
+            padding: 17px;
+            text-decoration: none;
+            margin-top: 10px;
+      }
+      button:hover{
+            background-color: black;
+
+      }
+
+    
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+     <h1>SHURI</h1>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Services.html">Services</a>
+    </div>
+
+    <form>
+        <input type="text" Placeholder="Full Name">
+        <input type="Email " placeholder="Email">
+        <input type="number" placeholder="Phone Number">
+        <button>Submit</button>
+
+    </form>    
+
+    
+</body>
+</html>
